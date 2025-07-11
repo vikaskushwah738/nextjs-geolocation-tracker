@@ -26,7 +26,7 @@ const GeolocationComponent = () => {
                 {
                     enableHighAccuracy: true,
                     maximumAge: 0,
-                    timeout: 1000,
+                    timeout: 10000,
                 }
             );
 
